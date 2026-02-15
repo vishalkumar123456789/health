@@ -1,1 +1,1 @@
-{\n  "name": "health-hub",\n  "private": true,\n  "workspaces": [\n    "backend/*",\n    "frontend/*"\n  ]\n}
+{ "private": true, "workspaces": { "backend": "backend/*", "frontend": "frontend/*" } }
