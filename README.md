@@ -1,24 +1,50 @@
-# Health Hub Application
+# Health Hub
 
-## Project Overview
+This is the Health Hub application built using the MERN stack. This repository contains both frontend and backend components.
 
-This Health Hub Application serves as a comprehensive platform for managing health-related services, including patient management, appointment scheduling, billing, and medical records management, all while utilizing modern web technologies.
+## Project Structure
 
-## Features
-- User authentication and authorization
-- Patient management
-- Appointment booking
-- Billing management
-- Medical record storage
-- Dashboard for users
-
-## Technologies
-- Frontend: React
-- Backend: Node.js with Express
-- Database: Supabase
+- **backend**: The server-side application
+- **frontend**: The client-side application
+- **shared**: Shared types and utilities between frontend and backend
 
 ## Getting Started
-1. Clone the repository
-2. Install dependencies
-3. Set up environment variables
-4. Run the application
+
+To get a copy of the project up and running on your local machine for development and testing purposes, follow these steps:
+
+### Prerequisites
+
+- Node.js
+- npm (or yarn)
+
+### Installation
+
+1. Clone the repository:
+   
+   ```bash
+   git clone https://github.com/vishalkumar123456789/health.git
+   cd health
+   ```
+
+2. Install dependencies for backend and frontend:
+   
+   ```bash
+   cd backend
+   npm install
+   cd ../frontend
+   npm install
+   ```
+
+3. Run the application:
+   
+   Backend:
+   ```bash
+   cd backend
+   npm start
+   ```
+   
+   Frontend:
+   ```bash
+   cd frontend
+   npm start
+   ```
